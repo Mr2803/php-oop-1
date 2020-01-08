@@ -69,6 +69,6 @@ while ($conf = $res->fetch_assoc()) {
 }
 
 foreach ($confs as $key => $value) {
-  echo $value . "<br />";
+  echo $value . "\n";
 }
 
